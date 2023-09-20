@@ -1,0 +1,29 @@
+.statistics {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  border: 2px solid;
+  text-align: center;
+  background-color: #fff;
+}
+.title {
+  color: #86919a;
+  text-transform: uppercase;
+}
+.statList {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+.item {
+  padding: 8px;
+  width: 100%;
+}
+.label {
+  color: #fff;
+}
+.percentage {
+  color: #fff;
+}
