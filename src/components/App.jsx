@@ -1,5 +1,7 @@
 import userData from '../data/user.json';
+import  statData from '../data/data.json';
 import { Profile } from './profile/Profile';
+import { Statistics } from './statistics/Statistics';
 
 export const App = () => {
   return (
@@ -11,6 +13,8 @@ export const App = () => {
       }}
     >
       <Profile usr={userData} />
+      <br/>
+      <Statistics data={statData}/>
     </div>
   );
 };
